@@ -1,0 +1,156 @@
+.celprofile {
+    /*border: solid #eb2e2e;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#description {
+    display: grid;
+    grid-template-columns: 20fr 1fr;
+    margin-left: 15px;
+    padding-left: 15px;
+    margin-right: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d1d4e1;
+}
+#grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+#score {
+    display: grid;
+    grid-template-columns: 15fr 25fr 60fr;
+    margin-top: 8px;
+}
+#subgridscore {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+}
+.create {
+    color: #838383;
+}
+.imgfondo {
+    width:100%;
+    height: 350px;
+}
+.fondo {
+    height: 100%;
+}
+.start {
+    color: #fde721;
+    font-size: 35px;
+}
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0px;
+}
+.city {
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 5px;    
+}
+.languages {
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.tabLink {
+    color: #000000;
+    
+    font-weight: bold;
+    font-size: 16px;
+}
+.tabOptions .selected{
+  color: #1cc02a;
+  text-decoration: underline;
+}
+
+.tabOption {
+    text-align: center;
+}
+.txtrating {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.celrating {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.cel {
+    /*border: solid #1cc02a;*/
+}
+.tab{
+    display: none
+}
+.tabContainer .selected{
+    display: block;
+}
+.exploreSection{
+    display: grid;
+    grid-template-rows: 30px 135px 35px 12fr 1fr;
+   
+}
+.interestsHeader{
+    display: grid;    
+    grid-template-columns: 35px 85px 45px auto;
+}
+.interestsTitle{
+    grid-column: 2/3;    
+}
+.interestsIcon{
+    grid-column: 3/4;
+}
+.interestsContent{
+    display: grid;
+    grid-template-rows: 100px 35px;
+    grid-template-columns: 35px 80% auto;
+}
+.interestsImages{
+    grid-column: 2/3;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit,minmax(70px,1fr));
+    grid-gap: 10px;
+}
+.interestsMoreLink{
+    grid-row: 2/3;
+    grid-column: 2/3; 
+    justify-self: end;
+}
+.interestsImage{
+    
+}
+.reviewsTitle{
+    display: grid;
+    grid-template-columns: 35px 85px auto;    
+}
+#forReviewsTitle{
+    grid-column: 2/3;
+}
+.reviewsContent{
+    display: grid;
+    grid-auto-rows: 140px;    
+    grid-template-columns: 35px 50% auto;
+}
+.reviews{
+    display: grid;
+    grid-column: 2/3;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 4fr; 
+}
